@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.drop_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 300px;
+    background-color: #ffc0cb;
+    border-radius: 12px ;
+    margin: 50px auto;
+    cursor: pointer;
+}
+.drop_icon input{
+    display: none;
+}
+
+.fa-arrow-up-from-bracket{
+   font-size: 40px;
+    color: white;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
