@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.dropzone {
+    border: 10px solid #4f151f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 300px;
+    background-color: rgb(148, 94, 94);
+    border-radius: 12px;
+    margin: 50px auto;
+    cursor: pointer;
+
+    .fa-arrow-up-from-bracket {
+        color: white;
+        font-size: 40px;
+    }
+
+    #input {
+        display: none;
+    }
+}
+
+.table {
+    margin: 50px auto;
+    width: 40%;
+    background-color: rgb(148, 94, 94);
+    .closebtn {
+        cursor: pointer;
+        color: red;
+        font-size: 20px;
+        &:hover {
+            color: black;
+        }
+    }
+}
